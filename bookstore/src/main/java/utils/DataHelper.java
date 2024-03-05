@@ -5,8 +5,8 @@ public class DataHelper {
 	public final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	public final static String DB_URL = "jdbc:mysql://localhost:3306/demo";
 	// Database credentials
-	public final static String USER = "root";
-	public final static String PASS = "Abcdef@123";
+	public final static String USER = "root";//default
+	public final static String PASS = "Abcdef@123";//default
 		
 	// SQL connection
 	static Connection conn = null;

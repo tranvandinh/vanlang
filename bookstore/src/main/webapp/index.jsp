@@ -7,6 +7,9 @@
 <title>Book Store</title>
 </head>
 <body>
-
+    <%@ page import = "model.User" %>
+    <%  
+	    response.sendRedirect("login");
+    %>  
 </body>
 </html>

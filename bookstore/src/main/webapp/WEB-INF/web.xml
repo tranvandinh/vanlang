@@ -11,13 +11,36 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Login</display-name>
-    <servlet-name>Login</servlet-name>
-    <servlet-class>controller.Login</servlet-class>
+    <display-name>BookController</display-name>
+    <servlet-name>BookController</servlet-name>
+    <servlet-class>contronller.BookController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Login</servlet-name>
-    <url-pattern>/Login</url-pattern>
+    <servlet-name>BookController</servlet-name>
+    <url-pattern>/BookController</url-pattern>
+    <url-pattern>/book</url-pattern>
+    <url-pattern>/sach</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>contronller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/login</url-pattern>
     <url-pattern>/dang-nhap</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HomeController</display-name>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>contronller.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/home</url-pattern>
+    <url-pattern>/trang-chu</url-pattern>
   </servlet-mapping>
 </web-app>
