@@ -8,15 +8,15 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class Login
+ * Servlet implementation class BookController
  */
-public class Login extends HttpServlet {
+public class BookController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Login() {
+    public BookController() {
         super();
         // TODO Auto-generated constructor stub
     }
