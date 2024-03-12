@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="book">Sách</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
